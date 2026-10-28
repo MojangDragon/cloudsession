@@ -1,0 +1,555 @@
+# A tárgyak listája. Átírhatod (ár, sugár, sebesség), a /be reload betölti.
+# unlock = ennyi összes megevett blokk kell a feloldáshoz, cost = ennyi blokk az ára.
+# speed = blokk/tick, radius = sugár, move = jármű sebessége.
+goal: 1000000000
+items:
+- number: 1
+  model: item_01
+  name: Rágcsáló Csákány
+  type: TOOL
+  unlock: 0
+  cost: 0
+  radius: 1
+  speed: 6
+  move: 0.0
+  tier: 0
+  desc: 'Jobb klikk: gömb alakban megeszi a blokkokat a célpont körül.'
+- number: 2
+  model: item_02
+  name: Fogas Ásó
+  type: TOOL
+  unlock: 100
+  cost: 20
+  radius: 1
+  speed: 7
+  move: 0.0
+  tier: 0
+  desc: 'Jobb klikk: gömb alakban megeszi a blokkokat a célpont körül.'
+- number: 3
+  model: item_03
+  name: Kis Segéd
+  type: HELPER
+  unlock: 140
+  cost: 28
+  radius: 1
+  speed: 8
+  move: 0.0
+  tier: 0
+  desc: 'Jobb klikk: előhívja / elküldi a segédet, ami követ és eszi a blokkokat.'
+- number: 4
+  model: item_04
+  name: Falánk Kalapács
+  type: TOOL
+  unlock: 200
+  cost: 40
+  radius: 1
+  speed: 9
+  move: 0.0
+  tier: 0
+  desc: 'Jobb klikk: gömb alakban megeszi a blokkokat a célpont körül.'
+- number: 5
+  model: item_05
+  name: Gödör Gokart
+  type: CAR
+  unlock: 270
+  cost: 54
+  radius: 1
+  speed: 10
+  move: 0.52
+  tier: 0
+  desc: 'Jobb klikk a földre: lerakja az autót. Ülj bele, és vezesd (W/A/S/D). Guggolás: leszállás.'
+- number: 6
+  model: item_06
+  name: Kőrágó Fúró
+  type: TOOL
+  unlock: 380
+  cost: 76
+  radius: 2
+  speed: 11
+  move: 0.0
+  tier: 1
+  desc: 'Jobb klikk: gömb alakban megeszi a blokkokat a célpont körül.'
+- number: 7
+  model: item_07
+  name: Ásó Manó
+  type: HELPER
+  unlock: 540
+  cost: 110
+  radius: 1
+  speed: 13
+  move: 0.0
+  tier: 1
+  desc: 'Jobb klikk: előhívja / elküldi a segédet, ami követ és eszi a blokkokat.'
+- number: 8
+  model: item_08
+  name: Mini Dózer
+  type: DOZER
+  unlock: 750
+  cost: 150
+  radius: 2
+  speed: 15
+  move: 0.28
+  tier: 1
+  desc: 'Jobb klikk a földre: lerakja a dózert. Ülj bele és tolj, minden eltűnik előtte. Guggolás: leszállás.'
+- number: 9
+  model: item_09
+  name: Vasgyomor Csákány
+  type: TOOL
+  unlock: 1000
+  cost: 200
+  radius: 3
+  speed: 17
+  move: 0.0
+  tier: 1
+  desc: 'Jobb klikk: gömb alakban megeszi a blokkokat a célpont körül.'
+- number: 10
+  model: item_10
+  name: Homokfutó
+  type: CAR
+  unlock: 1500
+  cost: 300
+  radius: 1
+  speed: 19
+  move: 0.62
+  tier: 1
+  desc: 'Jobb klikk a földre: lerakja az autót. Ülj bele, és vezesd (W/A/S/D). Guggolás: leszállás.'
+- number: 11
+  model: item_11
+  name: Robotszolga
+  type: HELPER
+  unlock: 2100
+  cost: 420
+  radius: 2
+  speed: 21
+  move: 0.0
+  tier: 2
+  desc: 'Jobb klikk: előhívja / elküldi a segédet, ami követ és eszi a blokkokat.'
+- number: 12
+  model: item_12
+  name: Aranyfogú Fúró
+  type: TOOL
+  unlock: 2900
+  cost: 580
+  radius: 5
+  speed: 24
+  move: 0.0
+  tier: 2
+  desc: 'Jobb klikk: gömb alakban megeszi a blokkokat a célpont körül.'
+- number: 13
+  model: item_13
+  name: Földtúró Dózer
+  type: DOZER
+  unlock: 4000
+  cost: 800
+  radius: 3
+  speed: 27
+  move: 0.33
+  tier: 2
+  desc: 'Jobb klikk a földre: lerakja a dózert. Ülj bele és tolj, minden eltűnik előtte. Guggolás: leszállás.'
+- number: 14
+  model: item_14
+  name: Terepjáró Evő
+  type: CAR
+  unlock: 5600
+  cost: 1100
+  radius: 2
+  speed: 31
+  move: 0.69
+  tier: 2
+  desc: 'Jobb klikk a földre: lerakja az autót. Ülj bele, és vezesd (W/A/S/D). Guggolás: leszállás.'
+- number: 15
+  model: item_15
+  name: Gyémánt Harapó
+  type: TOOL
+  unlock: 7900
+  cost: 1600
+  radius: 9
+  speed: 35
+  move: 0.0
+  tier: 2
+  desc: 'Jobb klikk: gömb alakban megeszi a blokkokat a célpont körül.'
+- number: 16
+  model: item_16
+  name: Drón Segéd
+  type: HELPER
+  unlock: 11000
+  cost: 2200
+  radius: 4
+  speed: 40
+  move: 0.0
+  tier: 3
+  desc: 'Jobb klikk: előhívja / elküldi a segédet, ami követ és eszi a blokkokat.'
+- number: 17
+  model: item_17
+  name: Sziklarágó Dózer
+  type: DOZER
+  unlock: 15000
+  cost: 3000
+  radius: 6
+  speed: 46
+  move: 0.37
+  tier: 3
+  desc: 'Jobb klikk a földre: lerakja a dózert. Ülj bele és tolj, minden eltűnik előtte. Guggolás: leszállás.'
+- number: 18
+  model: item_18
+  name: Sportautó Zabáló
+  type: CAR
+  unlock: 22000
+  cost: 4400
+  radius: 4
+  speed: 52
+  move: 0.76
+  tier: 3
+  desc: 'Jobb klikk a földre: lerakja az autót. Ülj bele, és vezesd (W/A/S/D). Guggolás: leszállás.'
+- number: 19
+  model: item_19
+  name: Smaragd Pusztító
+  type: TOOL
+  unlock: 30000
+  cost: 6000
+  radius: 14
+  speed: 59
+  move: 0.0
+  tier: 3
+  desc: 'Jobb klikk: gömb alakban megeszi a blokkokat a célpont körül.'
+- number: 20
+  model: item_20
+  name: Cyborg Segéd
+  type: HELPER
+  unlock: 42000
+  cost: 8400
+  radius: 6
+  speed: 67
+  move: 0.0
+  tier: 3
+  desc: 'Jobb klikk: előhívja / elküldi a segédet, ami követ és eszi a blokkokat.'
+- number: 21
+  model: item_21
+  name: Bányász Dózer
+  type: DOZER
+  unlock: 59000
+  cost: 12000
+  radius: 9
+  speed: 76
+  move: 0.4
+  tier: 4
+  desc: 'Jobb klikk a földre: lerakja a dózert. Ülj bele és tolj, minden eltűnik előtte. Guggolás: leszállás.'
+- number: 22
+  model: item_22
+  name: Monster Truck
+  type: CAR
+  unlock: 83000
+  cost: 17000
+  radius: 6
+  speed: 86
+  move: 0.84
+  tier: 4
+  desc: 'Jobb klikk a földre: lerakja az autót. Ülj bele, és vezesd (W/A/S/D). Guggolás: leszállás.'
+- number: 23
+  model: item_23
+  name: Obszidián Zúzó
+  type: TOOL
+  unlock: 120000
+  cost: 24000
+  radius: 21
+  speed: 98
+  move: 0.0
+  tier: 4
+  desc: 'Jobb klikk: gömb alakban megeszi a blokkokat a célpont körül.'
+- number: 24
+  model: item_24
+  name: Lávaszellem
+  type: HELPER
+  unlock: 160000
+  cost: 32000
+  radius: 10
+  speed: 111
+  move: 0.0
+  tier: 4
+  desc: 'Jobb klikk: előhívja / elküldi a segédet, ami követ és eszi a blokkokat.'
+- number: 25
+  model: item_25
+  name: Gigász Dózer
+  type: DOZER
+  unlock: 230000
+  cost: 46000
+  radius: 13
+  speed: 126
+  move: 0.44
+  tier: 4
+  desc: 'Jobb klikk a földre: lerakja a dózert. Ülj bele és tolj, minden eltűnik előtte. Guggolás: leszállás.'
+- number: 26
+  model: item_26
+  name: Lánctalpas Romboló
+  type: CAR
+  unlock: 320000
+  cost: 64000
+  radius: 8
+  speed: 143
+  move: 0.91
+  tier: 5
+  desc: 'Jobb klikk a földre: lerakja az autót. Ülj bele, és vezesd (W/A/S/D). Guggolás: leszállás.'
+- number: 27
+  model: item_27
+  name: Netherit Nyelő
+  type: TOOL
+  unlock: 440000
+  cost: 88000
+  radius: 31
+  speed: 162
+  move: 0.0
+  tier: 5
+  desc: 'Jobb klikk: gömb alakban megeszi a blokkokat a célpont körül.'
+- number: 28
+  model: item_28
+  name: Fekete Lyuk Segéd
+  type: HELPER
+  unlock: 620000
+  cost: 120000
+  radius: 13
+  speed: 184
+  move: 0.0
+  tier: 5
+  desc: 'Jobb klikk: előhívja / elküldi a segédet, ami követ és eszi a blokkokat.'
+- number: 29
+  model: item_29
+  name: Hegyevő Dózer
+  type: DOZER
+  unlock: 870000
+  cost: 170000
+  radius: 18
+  speed: 209
+  move: 0.48
+  tier: 5
+  desc: 'Jobb klikk a földre: lerakja a dózert. Ülj bele és tolj, minden eltűnik előtte. Guggolás: leszállás.'
+- number: 30
+  model: item_30
+  name: Rakétaautó
+  type: CAR
+  unlock: 1200000
+  cost: 240000
+  radius: 12
+  speed: 237
+  move: 0.98
+  tier: 5
+  desc: 'Jobb klikk a földre: lerakja az autót. Ülj bele, és vezesd (W/A/S/D). Guggolás: leszállás.'
+- number: 31
+  model: item_31
+  name: Végzet Fúró
+  type: TOOL
+  unlock: 1700000
+  cost: 340000
+  radius: 41
+  speed: 270
+  move: 0.0
+  tier: 6
+  desc: 'Jobb klikk: gömb alakban megeszi a blokkokat a célpont körül.'
+- number: 32
+  model: item_32
+  name: Ősi Gólem
+  type: HELPER
+  unlock: 2400000
+  cost: 480000
+  radius: 18
+  speed: 306
+  move: 0.0
+  tier: 6
+  desc: 'Jobb klikk: előhívja / elküldi a segédet, ami követ és eszi a blokkokat.'
+- number: 33
+  model: item_33
+  name: Titán Dózer
+  type: DOZER
+  unlock: 3300000
+  cost: 660000
+  radius: 24
+  speed: 347
+  move: 0.51
+  tier: 6
+  desc: 'Jobb klikk a földre: lerakja a dózert. Ülj bele és tolj, minden eltűnik előtte. Guggolás: leszállás.'
+- number: 34
+  model: item_34
+  name: Gépóriás
+  type: CAR
+  unlock: 4600000
+  cost: 920000
+  radius: 15
+  speed: 394
+  move: 1.06
+  tier: 6
+  desc: 'Jobb klikk a földre: lerakja az autót. Ülj bele, és vezesd (W/A/S/D). Guggolás: leszállás.'
+- number: 35
+  model: item_35
+  name: Kozmikus Csákány
+  type: TOOL
+  unlock: 6500000
+  cost: 1300000
+  radius: 54
+  speed: 448
+  move: 0.0
+  tier: 6
+  desc: 'Jobb klikk: gömb alakban megeszi a blokkokat a célpont körül.'
+- number: 36
+  model: item_36
+  name: Űrlény Segéd
+  type: HELPER
+  unlock: 9100000
+  cost: 1800000
+  radius: 23
+  speed: 508
+  move: 0.0
+  tier: 7
+  desc: 'Jobb klikk: előhívja / elküldi a segédet, ami követ és eszi a blokkokat.'
+- number: 37
+  model: item_37
+  name: Bolygórágó Dózer
+  type: DOZER
+  unlock: 13000000
+  cost: 2600000
+  radius: 30
+  speed: 577
+  move: 0.55
+  tier: 7
+  desc: 'Jobb klikk a földre: lerakja a dózert. Ülj bele és tolj, minden eltűnik előtte. Guggolás: leszállás.'
+- number: 38
+  model: item_38
+  name: Plazma Autó
+  type: CAR
+  unlock: 18000000
+  cost: 3600000
+  radius: 20
+  speed: 655
+  move: 1.13
+  tier: 7
+  desc: 'Jobb klikk a földre: lerakja az autót. Ülj bele, és vezesd (W/A/S/D). Guggolás: leszállás.'
+- number: 39
+  model: item_39
+  name: Antianyag Kalapács
+  type: TOOL
+  unlock: 25000000
+  cost: 5000000
+  radius: 69
+  speed: 743
+  move: 0.0
+  tier: 7
+  desc: 'Jobb klikk: gömb alakban megeszi a blokkokat a célpont körül.'
+- number: 40
+  model: item_40
+  name: Dimenzióőrző
+  type: HELPER
+  unlock: 35000000
+  cost: 7000000
+  radius: 29
+  speed: 844
+  move: 0.0
+  tier: 7
+  desc: 'Jobb klikk: előhívja / elküldi a segédet, ami követ és eszi a blokkokat.'
+- number: 41
+  model: item_41
+  name: Kontinens Dózer
+  type: DOZER
+  unlock: 49000000
+  cost: 9800000
+  radius: 38
+  speed: 958
+  move: 0.59
+  tier: 8
+  desc: 'Jobb klikk a földre: lerakja a dózert. Ülj bele és tolj, minden eltűnik előtte. Guggolás: leszállás.'
+- number: 42
+  model: item_42
+  name: Időgép Autó
+  type: CAR
+  unlock: 68000000
+  cost: 14000000
+  radius: 24
+  speed: 1088
+  move: 1.2
+  tier: 8
+  desc: 'Jobb klikk a földre: lerakja az autót. Ülj bele, és vezesd (W/A/S/D). Guggolás: leszállás.'
+- number: 43
+  model: item_43
+  name: Csillagevő Fúró
+  type: TOOL
+  unlock: 95000000
+  cost: 19000000
+  radius: 86
+  speed: 1235
+  move: 0.0
+  tier: 8
+  desc: 'Jobb klikk: gömb alakban megeszi a blokkokat a célpont körül.'
+- number: 44
+  model: item_44
+  name: Világevő Segéd
+  type: HELPER
+  unlock: 130000000
+  cost: 26000000
+  radius: 36
+  speed: 1402
+  move: 0.0
+  tier: 8
+  desc: 'Jobb klikk: előhívja / elküldi a segédet, ami követ és eszi a blokkokat.'
+- number: 45
+  model: item_45
+  name: Apokalipszis Dózer
+  type: DOZER
+  unlock: 190000000
+  cost: 38000000
+  radius: 48
+  speed: 1591
+  move: 0.62
+  tier: 8
+  desc: 'Jobb klikk a földre: lerakja a dózert. Ülj bele és tolj, minden eltűnik előtte. Guggolás: leszállás.'
+- number: 46
+  model: item_46
+  name: Galaxisugró
+  type: CAR
+  unlock: 260000000
+  cost: 52000000
+  radius: 30
+  speed: 1806
+  move: 1.28
+  tier: 9
+  desc: 'Jobb klikk a földre: lerakja az autót. Ülj bele, és vezesd (W/A/S/D). Guggolás: leszállás.'
+- number: 47
+  model: item_47
+  name: Ősrobbanás Csákány
+  type: TOOL
+  unlock: 370000000
+  cost: 74000000
+  radius: 105
+  speed: 2051
+  move: 0.0
+  tier: 9
+  desc: 'Jobb klikk: gömb alakban megeszi a blokkokat a célpont körül.'
+- number: 48
+  model: item_48
+  name: Végtelen Éhség
+  type: HELPER
+  unlock: 510000000
+  cost: 100000000
+  radius: 44
+  speed: 2328
+  move: 0.0
+  tier: 9
+  desc: 'Jobb klikk: előhívja / elküldi a segédet, ami követ és eszi a blokkokat.'
+- number: 49
+  model: item_49
+  name: Istenek Dózere
+  type: DOZER
+  unlock: 710000000
+  cost: 140000000
+  radius: 58
+  speed: 2643
+  move: 0.66
+  tier: 9
+  desc: 'Jobb klikk a földre: lerakja a dózert. Ülj bele és tolj, minden eltűnik előtte. Guggolás: leszállás.'
+- number: 50
+  model: item_50
+  name: A Világfaló
+  type: FINAL
+  unlock: 1000000000
+  cost: 200000000
+  radius: 120
+  speed: 3000
+  move: 0.0
+  tier: 9
+  desc: 'A legfőbb fegyver. Jobb klikk: hatalmas gömb alakú pusztítás.'

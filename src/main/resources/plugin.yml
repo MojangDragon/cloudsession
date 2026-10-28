@@ -1,0 +1,23 @@
+name: BlockEater
+version: ${project.version}
+main: hu.blockeater.BlockEaterPlugin
+api-version: '${api.version}'
+author: MojangDragon
+description: Egyre erősebb tárgyak, amik megeszik a blokkokat. Bolt-portállal, járművekkel, segédekkel.
+
+commands:
+  blockeater:
+    description: BlockEater főparancs
+    aliases: [be]
+    usage: /<command> [shop|stats|hud|pack|give|add|set|reset|reload]
+  shop:
+    description: Bolt-portál előhívása
+    usage: /<command>
+
+permissions:
+  blockeater.use:
+    description: A plugin használata
+    default: true
+  blockeater.admin:
+    description: Admin parancsok
+    default: op

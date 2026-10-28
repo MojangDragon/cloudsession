@@ -1,0 +1,50 @@
+# BlockEater beállítások
+
+# Ezekben a világokban nem működnek az evő tárgyak.
+disabled-worlds: []
+
+# Extra tiltott blokkok (Material nevek), amiket sosem eszik meg. A bedrock-szerű (törhetetlen) blokkokat mindig kihagyja.
+blacklist: []
+
+# Nem eszi meg a ládákat, kemencéket, hordókat stb. (a tartalmuk így nem vész el)
+protect-containers: true
+
+# A játékos / jármű alatti 3x3-as padlót nem eszi meg, így nem esel bele a saját lyukadba.
+protect-floor: true
+
+# A vizet és lávát is megeszi (és számolja).
+eat-liquids: true
+
+# Részecskék és hangok evés közben.
+effects: true
+
+# Ennyi ezredmásodpercnél többet nem használ egy tickben az evés (így a szerver nem akad meg).
+max-ms-per-tick: 30
+
+# A bolt-portál ennyi ideig marad meg (másodperc).
+portal-seconds: 90
+
+# Új játékos kap egy Portál Kristályt.
+give-crystal-on-join: true
+
+# A jobb oldali kijelző (scoreboard) alapból be van kapcsolva.
+hud-default: true
+
+# Mentés gyakorisága (tick).
+save-interval-ticks: 6000
+
+# Resource pack (egyedi textúrák és 3D modellek). Két lehetőség:
+#  1) url: add meg a feltöltött BlockEater-ResourcePack.zip közvetlen linkjét (és az sha1-ét)
+#  2) embedded-server: a plugin maga szolgálja ki a packet (a portot el kell érni kívülről!)
+resource-pack:
+  url: ""
+  sha1: ""
+  force: false
+  prompt: "BlockEater textúrák és 3D modellek"
+  embedded-server:
+    enabled: false
+    port: 8123
+    public-host: ""   # a szervered nyilvános címe, pl. play.pelda.hu
+
+# Hibakereséshez: a járművek bemenetét naplózza.
+debug: false

@@ -1,0 +1,157 @@
+# Automatikusan generált (tools/gen_pack.py): modellméretek a világba tett megjelenítéshez.
+item_01:
+  half: 0.4688
+  width: 0.7257
+item_02:
+  half: 0.4688
+  width: 0.2781
+item_03:
+  half: 0.4688
+  width: 0.6518
+item_04:
+  half: 0.4688
+  width: 0.7257
+item_05:
+  half: 0.3578
+  width: 0.9375
+item_06:
+  half: 0.4394
+  width: 0.9375
+item_07:
+  half: 0.4688
+  width: 0.6518
+item_08:
+  half: 0.4172
+  width: 0.9375
+item_09:
+  half: 0.4394
+  width: 0.9375
+item_10:
+  half: 0.3199
+  width: 0.9375
+item_11:
+  half: 0.4688
+  width: 0.6518
+item_12:
+  half: 0.4394
+  width: 0.9375
+item_13:
+  half: 0.4193
+  width: 0.9375
+item_14:
+  half: 0.3578
+  width: 0.9375
+item_15:
+  half: 0.4394
+  width: 0.9375
+item_16:
+  half: 0.4688
+  width: 0.6518
+item_17:
+  half: 0.4193
+  width: 0.9375
+item_18:
+  half: 0.3033
+  width: 0.9375
+item_19:
+  half: 0.4688
+  width: 0.7257
+item_20:
+  half: 0.4688
+  width: 0.6518
+item_21:
+  half: 0.4172
+  width: 0.9375
+item_22:
+  half: 0.3199
+  width: 0.9375
+item_23:
+  half: 0.4688
+  width: 0.5561
+item_24:
+  half: 0.4688
+  width: 0.6518
+item_25:
+  half: 0.4172
+  width: 0.9375
+item_26:
+  half: 0.3578
+  width: 0.9375
+item_27:
+  half: 0.4688
+  width: 0.9375
+item_28:
+  half: 0.4688
+  width: 0.7104
+item_29:
+  half: 0.3973
+  width: 0.9375
+item_30:
+  half: 0.3033
+  width: 0.9375
+item_31:
+  half: 0.4688
+  width: 0.8202
+item_32:
+  half: 0.4688
+  width: 0.7104
+item_33:
+  half: 0.3476
+  width: 0.9375
+item_34:
+  half: 0.2719
+  width: 0.9375
+item_35:
+  half: 0.4688
+  width: 0.5561
+item_36:
+  half: 0.4688
+  width: 0.6992
+item_37:
+  half: 0.3476
+  width: 0.9375
+item_38:
+  half: 0.3399
+  width: 0.9375
+item_39:
+  half: 0.4688
+  width: 0.8108
+item_40:
+  half: 0.4688
+  width: 0.6992
+item_41:
+  half: 0.3476
+  width: 0.9375
+item_42:
+  half: 0.2859
+  width: 0.9375
+item_43:
+  half: 0.4688
+  width: 0.7095
+item_44:
+  half: 0.4688
+  width: 0.6512
+item_45:
+  half: 0.3476
+  width: 0.9375
+item_46:
+  half: 0.2859
+  width: 0.9375
+item_47:
+  half: 0.4688
+  width: 0.5561
+item_48:
+  half: 0.4688
+  width: 0.6512
+item_49:
+  half: 0.3476
+  width: 0.9375
+item_50:
+  half: 0.4431
+  width: 0.9375
+portal_crystal:
+  half: 0.4375
+  width: 0.7071
+shop_portal:
+  half: 0.8125
+  width: 1.125

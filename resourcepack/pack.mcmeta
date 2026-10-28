@@ -1,0 +1,13 @@
+{
+ "pack": {
+  "description": "§6BlockEater §7- egyedi 3D tárgyak",
+  "min_format": [
+   97,
+   0
+  ],
+  "max_format": [
+   97,
+   1
+  ]
+ }
+}
