@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Lovagolható Warden (RP)",
+    "description": "A lovagolható warden kinézete és hangjai.",
+    "uuid": "a8e07b3d-52c9-41fa-9d64-0b1e3f7c8a25",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "e15c9a40-6b2d-4d83-8f07-c4a3b9d1e682",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "c2a41e57-8d3b-4f06-b1a9-5e7d0c9f2a10",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

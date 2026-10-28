@@ -1,0 +1,94 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "ridewarden:warden",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "ridewarden_mount",
+          "mob"
+        ]
+      },
+      "minecraft:health": {
+        "value": 500,
+        "max": 500
+      },
+      "minecraft:collision_box": {
+        "width": 0.9,
+        "height": 2.9
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "minecraft:nameable": {},
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:can_climb": {},
+      "minecraft:movement": {
+        "value": 0.32
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {},
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "avoid_damage_blocks": true,
+        "can_walk": true
+      },
+      "minecraft:movement_sound_distance_offset": {
+        "value": 0.55
+      },
+      "minecraft:ambient_sound_interval": {
+        "event_name": "ambient",
+        "range": 6.0,
+        "value": 6.0
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 11
+      },
+      "minecraft:is_tamed": {},
+      "minecraft:is_saddled": {},
+      "minecraft:rideable": {
+        "seat_count": 1,
+        "crouching_skip_interact": true,
+        "family_types": [
+          "player"
+        ],
+        "interact_text": "action.interact.ride.horse",
+        "seats": [
+          {
+            "position": [
+              0.0,
+              2.6,
+              0.0
+            ]
+          }
+        ]
+      },
+      "minecraft:input_ground_controlled": {},
+      "minecraft:behavior.player_ride_tamed": {},
+      "minecraft:can_power_jump": {},
+      "minecraft:horse.jump_strength": {
+        "value": {
+          "range_min": 0.7,
+          "range_max": 0.7
+        }
+      }
+    }
+  }
+}

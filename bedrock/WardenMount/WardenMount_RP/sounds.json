@@ -1,0 +1,42 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "ridewarden:warden": {
+        "events": {
+          "ambient": "mob.warden.idle",
+          "death": {
+            "pitch": [
+              0.8,
+              1.0
+            ],
+            "sound": "mob.warden.death",
+            "volume": 1.0
+          },
+          "heartbeat": {
+            "pitch": 1.0,
+            "sound": "mob.warden.heartbeat",
+            "volume": 5.0
+          },
+          "hurt": {
+            "pitch": [
+              0.8,
+              1.0
+            ],
+            "sound": "mob.warden.hurt",
+            "volume": 1.0
+          },
+          "step": {
+            "pitch": 1.0,
+            "sound": "mob.warden.step",
+            "volume": 10.0
+          }
+        },
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "volume": 1.0
+      }
+    }
+  }
+}

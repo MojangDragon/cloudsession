@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Lovagolható Warden (BP)",
+    "description": "Egy szelíd, lovagolható warden.",
+    "uuid": "c2a41e57-8d3b-4f06-b1a9-5e7d0c9f2a10",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "3f9d6b82-47ea-4c15-a0b3-91d8e52c7f44",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "a8e07b3d-52c9-41fa-9d64-0b1e3f7c8a25",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
