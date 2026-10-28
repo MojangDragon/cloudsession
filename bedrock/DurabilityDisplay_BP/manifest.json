@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Tartósság Kijelző",
+    "description": "Megmutatja a tárgyak tartósságát számokkal (pl. 120/250), mint a Java Editionben. HUD + tooltip.",
+    "uuid": "5d0a8c1e-3b6f-4a52-9e0d-7c1f2a9b4e11",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "b7e2f4a9-1c3d-4f68-8a5b-0d9e6c2f7a33",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.11.0"
+    }
+  ]
+}
