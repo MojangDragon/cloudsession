@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Tart\u00f3ss\u00e1g Sz\u00e1mokkal (RP)",
+    "description": "A t\u00e1rgyak h\u00e1tral\u00e9v\u0151 tart\u00f3ss\u00e1g\u00e1t sz\u00e1mmal is ki\u00edrja a hotbaron, a t\u00e1sk\u00e1ban \u00e9s a l\u00e1d\u00e1kban. Csak resource pack, nincs hozz\u00e1 behavior pack.",
+    "uuid": "9b3e6a14-72d5-4c08-a1f9-3d8c5e0b7a62",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "4e8a1c93-0b57-4d2e-9f61-a7c2d5b8e340",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
